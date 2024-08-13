@@ -10,3 +10,56 @@ body{
     background-color: #f3f1ff;
 }
 
+
+
+
+
+
+
+
+
+/* header related style  */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 94px;
+    background: #562EFF;
+    padding: 0px 280px;
+}
+
+
+
+ul >li{
+    list-style: none;
+    margin-right:30px;
+    display: inline;
+}
+
+nav > ul > li> a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.idea-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img{
+    height: 51px;
+    width: 40px;
+}
+.header-title{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
