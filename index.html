@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <!-- css style ------------- -->
     <link rel="stylesheet" href="styles/style.css">
+    <!-- google font ------------- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- font awesome --------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
      <!-- header section start  -->
-    <header class="header">
+    <header class="header ">
             <div class="idea-container">
                 <div class="header-logo">
                     <img src="images/icons/logo.png" alt="">
@@ -39,10 +42,16 @@
     <!-- header section end  -->
 
 
-    <!-- main section start  -->
+    <!--------------------------------
+           main section start
+    ---------------------------------->
     <main>
         <section class="player-container">
-            <h2 class="section-title">Top Player</h2>
+
+            <!------------ top player section stard--------- -->
+
+
+            <h2 class="section-title h-title">Top Player</h2>
             <div class="top-players">
                 <div class="players">
                     <div class="player">
@@ -73,11 +82,146 @@
 
             </div>
             <hr>
-        </section>    
+            
+            <!------------ top player section end--------- -->
+
+
+            <!-- top blog start ------------------ -->
+    
+        
+
+            <div class="top-blogs ">
+                <h2 class="section-title ">Top Blogs</h2>
+                <div class="blogs">
+                    <artical class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-1.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">13 of My FavoriteUI/UX Goodies</h3>
+                            <p class="author-name">By <a href="">Danny Sapio</a></p>
+                        </div>
+                    </artical>
+                    <artical class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">UI cheat sheet: 
+                                list vs grids</h3>
+                            <p class="author-name">By <a href="">Tass Godd</a></p>
+                        </div>
+                    </artical>
+                    <artical class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">7 typography tips 
+                                for interface design</h3>
+                            <p class="author-name">By <a href=""> Jeremiah</a></p>
+                        </div>
+                    </artical>
+                    <artical class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="blog-info extra">
+                            <h3 class="blog-title">Your logo is copied</h3>
+                            <p class="author-name">By <a href="">Ferdinand Vogler</a></p>
+                        </div>
+                    </artical>
+                </div>
+            </div>
+        </section>
+        <!-- ----------------------------top blog end ---------------------------- -->
+        
+
+
+        <!-- latest course start ------------------------------ -->
+        <section class="course-container">
+            <h2 class="section-title">Latest Course</h2>
+            <div class="courses">
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="images/courses/course-1.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="course-title">React The Complete Guid 2020</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-info">
+                            <div class="review">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                 4.5
+                            </div>
+                            <div class="course-duration">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30 hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="images/courses/course-2.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="course-title">Powerpoint 2020 Master Powerpoint Course</h3>
+                        <p class="course-author">Walter Scott</p>
+                        <div class="course-info">
+                            <div class="review">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                 4.5
+                            </div>
+                            <div class="course-duration">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30 hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="images/courses/course-3.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="course-title">The Complete Javascript Course 2020</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        
+                        <div class="course-info">
+                            <div class="review">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                 4.5
+                            </div>
+                            <div class="course-duration">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30 hr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- latest course end ---------------------------- -->
     </main>
+    <!-----------------------
+         main section end 
+    ------------------------ -->
 
     <footer>
-
+        <p>Designed By &copy; <a href="">Mim Rahman WD</a></p>
     </footer>
 </body>
 </html>
